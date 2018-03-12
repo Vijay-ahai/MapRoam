@@ -1,0 +1,234 @@
+/*body,div,img,h3,table,input,a,td,td,p{
+    border-style: solid;
+}*/
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #5a5b5b;
+    padding:0,10px,10px, 10px;
+    margin-top:0;
+
+}
+/*------------------------------------------页眉*/
+div.head{
+    position: relative;
+    background-color:white ;
+    height: 64px;
+    width: 100%;
+    top:0;
+}
+p.headtips{
+    left: 100px;
+    width: 200px;
+    color: #75b86b;
+}
+table.headlogo{
+    margin: 0px;
+    position: absolute;
+    top:50%;
+    left:20px;
+    transform: translateY(-50%);
+    height: 100px;
+
+}
+img.headlogo{
+    margin: 0px;
+    height:60px;
+
+}
+table.search{
+    position: absolute;
+    top:50%;
+    left:300px;
+    transform: translateY(-50%);
+    height: inherit;
+}
+table.headtable{
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: inherit;
+
+}
+table.headtable td{
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid #75b86b;
+    text-align: center;
+}
+/*---------------------------------国家/地区图片   介绍  */
+div.show{
+    width: inherit;
+    height: 800px;
+    position: relative;
+}
+div.country,div.country img{
+    width: 100%;
+    height: inherit;
+    background-color: white;
+}
+table.cname{
+    position: absolute;
+    right:30px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 500px;
+    position: absolute;
+    left:30px;
+}
+
+td.tdcname{
+    font-size: 90px;
+    font-family: 幼圆;
+    color: white;
+}
+td.tdctips {
+    font-size: 10px;
+    color: #505050;
+    font-style: oblique;
+    font-family: 微软雅黑;
+}
+td.tdwriter{
+    font-size: 10px;
+    color: #505050;
+    font-style: oblique;
+    font-family: 微软雅黑;
+    text-align: right;
+}
+/*----------------------------国家/地区交通查找*/
+div.wayblack{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    left: 30px;
+    bottom: 10%;
+}
+div.wayblack table {
+    border-spacing: 0px;
+    z-index: 3;
+
+}
+div.wayblack table td input{
+    height: 30px;
+    width: 100px;
+}
+div.wayblack table td button{
+    height: 30px;
+    color: white;
+    background-color: #5a5b5b;
+    font-family: 幼圆;
+    font-size: 20px;
+}
+
+/*------------------------------景点*/
+div.point{
+    width: inherit;
+    position: relative;
+    background-color: white;
+    text-align: center;
+
+}
+p.ppoint{
+    color: black;
+    font-size: 50px;
+    font-family: 幼圆;
+    margin: 0px;
+    padding: 20px;
+    border-bottom: :1px solid #C0C0C0;
+
+}
+table.tbpoint{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-spacing: 50px 5px;
+    background-color: #F8F8F8;
+}
+table.tbpoint td{
+    border:1px solid #C0C0C0;
+    width: 25%;
+    background-color: white;
+}
+img.share{
+    width: 200px;
+    height: 200px;
+}
+p.share1{
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+p.share2{
+    margin-top: -15px;
+    font-size: 15px;
+    font-family: 宋体;
+    color: #5a5b5b;
+}
+/*--------------------------行程*/
+div.droute{
+    width: inherit;
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+table.tbroute{
+    border-spacing: 20px;
+    padding: 0px 50px;
+    background-color: #F8F8F8;
+
+}
+#rarea{
+    background-color: white;    
+}
+div.dmap{
+    width: inherit;
+    height: 300px;
+    border:1px solid #C0C0C0;
+    margin: 30px;
+    position: relative;
+    background-color: white;
+   
+}
+div.dmap img{
+    width: 95%;
+    height: 91%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+table.tbroute tr td{
+   width: 500px;
+    height: 50px;
+    position: relative;
+}
+td.tdroute p{
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    left: 0px;
+    color: #909090;
+    width: 80%;
+    font-family: 宋体;
+    font-style: oblique;
+    background-color: white;
+    border:1px solid #C0C0C0;
+    padding: 10px;
+
+}
+td.tdroute div{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px;
+}
+td.tdroute div input{
+    margin: 20px;
+    font-size: 15px;
+    background-color: #505050;
+    color:#F8F8F8;
+    border-radius: 10px;
+}

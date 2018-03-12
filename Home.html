@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MR地漫——属于年轻人的旅行线路分享门户网站</title>
+    <link href="Home.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="Home.js"></script>
+    <!--
+    1.设置position定位才可以进行堆叠显示
+    2.消除表格空隙：css border-collapse：collaps
+    3.使用链接锚进行文档位置跳转-->
+</head>
+<body>
+     <div class="body">
+         <div class="head">
+             <img class="headlogo" src="resources/Home_Logo.png">
+             <h3 class="headtips">MR地图漫步</h3>
+             <table class="headtable">
+                 <tr>
+                     <td>首页</td><td><a href="#recommand">当季推荐</a></td><td><a href="#route">旅行故事</a> </td><td>照片分享</td><td><a href="#aboutus">关于我们</a> </td><td id="user"><a href="sign.html">登陆</a></td>
+                 </tr>
+             </table>
+         </div>
+         <div class="show">
+             <img src="resources/Show%20(2).jpg" class="show">
+             <div class="black"></div>
+             <div class="showtips">
+                 <p class="showtip1">The new tourist style</p>
+                 <p class="showtip2">愿年轻的你我都永远有一颗冒险的心</p>
+                 <button class="show"><a href="#now">现在体验</a> </button>
+             </div>
+
+         </div>
+         <table class="fourpart">
+             <tr>
+                 <td><img src="resources/4part1.png"></td><td><img src="resources/4part2.png"></td><td><img src="resources/4part3.png"></td><td><img src="resources/4part4.png" ></td>
+             </tr>
+             <tr>
+                 <td>打造全新世界观，让你更爱你的生活</td><td>最热当季推荐，永远不错过最美的风景</td><td>机+酒任意组合，重新定义您的出行方式</td><td>完善的线路规划方案，不一样的出行体验</td>
+             </tr>
+         </table>
+
+         <a name="now"></a>
+         <div class="find">
+             <img class="departrue" src="resources/departu.png" >
+             <table class="find">
+                 <td ><input type="text" placeholder="也许你想去......"  class="putin" id="putin"></td>
+                 <td><button class="go" onclick="cgo()">出发</button></td>
+             </table>
+         </div>
+
+         <a name="recommand"></a>
+         <div class="share" >
+             <table class="share">
+                 <tr>
+                     <td ><div><img src="resources/share.jpg" class="share"></div><p class="share1">中国</p><p class="share2">卷云下的大理船泊</p></td>
+                     <td><p class="share1" >荷兰</p><p class="share2">霍比特的风车玩偶</p><div><img src="resources/share2.jpg"class="share"></div></td>
+                     <td><div><img src="resources/share3.jpg"class="share"></div><p class="share1">布拉格</p><p class="share2">在黄昏的广场布满白鸽</p> </td>
+                     <td><div><img src="resources/share4.jpg "class="share"></div><p class="share1">日本</p><p class="share2">六本木之丘上的第一次眺望</p> </td>
+                 </tr>
+             </table>
+         </div>
+
+         <a name="route"></a>
+         <table class="route">
+             <tr>
+                <td colspan="2">
+                    <img src="resources/route1.jpg" class="route1"><p class="route1">MR地图漫步</p><p class="route2">Map Roam</p><p class="route3">海边微风起，等风也等你</p>
+                </td>
+                 <td><p style="font-size: 30px;text-align: left;">《遇见是幸福还是不幸？》</p><p class="route">“很长一段时间我都在思考一个问题，为什么我对凤凰有那么深的执念。有时候下雨，趴在高三教室外面的我就会想，这样的天气如果在凤凰，就算不能出门也好，推开木窗看到楼下古巷撑油纸伞路过的人，或者在客栈里蜗居，都是另外一种感受。而此时此刻面对高三的升学压力，我好像找不到什么理由可以去一趟那个地方。我大概不是文艺青年，也并非对古镇有什么特殊情节，只是对于凤凰这个地方，始终有一股内心力量。也许是高三语文老师深情讲述的《边城》，也许想看看那个等待捉鸭子归来少年的少女，也许只是单纯的想去那里的水车和跳岩。总而言之，我去了……”</p></td>
+             </tr>
+
+             <tr>
+                 <td><p style="font-size: 30px;">《假如爱有天意》</p><p class="route">“直到现在我依然还记得我们分开的最后一幕：<br><br>那天我起得晚，外面刚下过雨，汤姆正在青旅的厨房烤面包，他看到我下楼就顺搭给了我一块面包。“你会不会烤面包啊全都糊了”我拿着干瘪瘪的面包片很是嫌弃，“不吃你就给我放下你个死孩子”，我哈哈大笑拿起行李办完退房手续，出门的时候我说，<br>“再见汤姆。”<br>他说，“再见”</p><button class="route">查看更多</button> </td>
+                 <td><p class="route">乡下的汽车总是充满了乡下应该有的味道，老人的卷草烟味儿、聒噪的赶场妇女手上家禽的粪味、小孩身上的泥巴味，当然还有阳光晒过老旧座位散发出来的味道，乡间风吹来的稻草味。一切都是那么原始，有趣。乡间路不平稳，汽车晃来晃去，好像一个天然的气氛搅拌机，陌生人之间借烟打火，互相夸赞对方的孩子。我有时候很喜欢这种朴实。</p><p style="font-size: 30px;text-align: right;">《味道》</p><button class="route">查看更多</button></td><td><img src="resources/route.jpg" class="route"></td>
+             </tr>
+         </table>
+
+
+         <a name="aboutus"></a>
+         <footer class="foot">
+             <div class="foot">
+                 <p class="foottip1">联系我们</p>
+                 <p class="foottip2">为了更好的促进用户体验，您可以再下方留下您的电子邮箱快速订阅我们的产品资讯，也可以通过下方任何方式关注我们的动态</p>
+                 <input type="text" class="text"><input type="button" value="提交" class="button">
+                 <table class="foot">
+                     <tr>
+                         <td><img src="resources/foot.png"></td>
+                         <td><img src="resources/foot%20(2).png"></td>
+                         <td><img src="resources/foot%20(3).png" ></td>
+                         <td><img src="resources/foot%20(4).png" ></td>
+                     </tr>
+                 </table>
+             </div>
+
+         </footer>
+
+     </div>
+
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+/*div,table,tr,td,p,img,input{
+    border-style: solid;
+}*/
+a {
+    text-decoration: none;
+}
+body{
+   background-color: #5a5b5b;
+   padding: 0px 20px 0px 20px;
+
+}
+div.body{
+    background-color:white;
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    margin: 0px;
+
+}
+
+div.hello{
+    z-index: 5;
+    width: 300px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+}
+table.log{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 3;
+    color: white;
+    font-size: 30px;
+    font-family: 幼圆;
+
+}
+
+#loginmsg{
+    padding: 0px;
+    color: white;
+}
+#male,#female{
+    width: 80px;
+    height: 20px;
+}
+p.msg{
+    padding: 0px;
+    font-size: 5px;
+    margin: 0px;
+    text-align: left;
+}
+table.log input{
+    height: 50px;
+    width: 300px;
+    margin: 0px;
+    font-family: 宋体;
+    font-size: 20px;
+}
+input.login{
+    background-color: #778899;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+
+img.show{
+    width: 1300px;
+    height: inherit;
+    position: absolute;
+    top:0px;
+    left:0px;
+
+}
+div.black{
+    width:1300px;
+    height: inherit;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.8;
+}
+table.sentence{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-family: 楷体;
+    color: white;
+}
+td.s2{
+    text-align: right;
+    font-size: 5px;
+    color:  #F0F0F0;
+}
+/*-----------------------------------------------页脚*/
+footer.foot{
+    background-color: #5a5b5b;
+    padding: 10px;
+    position: relative;
+    height: 200px;
+    bottom: 0px;
+}
+div.foot{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+p.foottip1{
+    color: white;
+    font-size: 20px;
+
+}
+p.foottip2{
+    color: white;
+    font-size: 10px;
+    margin-top: 0px;
+}
+input.text{
+    height: 30px;
+    width: 50%;
+}
+input.button{
+    height: 34px;
+    width: 10%;
+    color: white;
+    text-align: center;
+    background-color: #D8D8D8;
+}
+table.foot{
+    margin: 5px auto;
+    position: relative;
+    top:20px;
+}

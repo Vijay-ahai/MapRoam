@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="Dest.css" rel="stylesheet">
+    <script src="Dest.js"></script>
+    <title>目的地</title>
+</head>
+<body>
+
+   <div class="head">
+      <table class="headlogo">
+        <td><img class="headlogo" src="resources/Home_logo.png"></td>
+        <td><p class="headtips">MR地图漫步</p></td>
+      </table>
+    <table class="search" >
+        <td class="search"><input type="text" placeholder="目的地"></td>
+        <td><a class="go">Go</a></td>
+    </table>
+    <table class="headtable">
+        <tr>
+            <td><a href="Home.html">首页</a> </td><td><a href="#">当季推荐</a></td><td><a href="#">路线攻略</a> </td><td>照片分享</td><td><a href="#">关于我们</a> </td><td><a href="sign.html">登陆</a></td>
+        </tr>
+    </table>
+    </div>
+
+    <div class="show">
+    <div class="country" id="countrypic"></div>
+    <table class="cname" id="tcname">
+        <tr><td class="tdcname" id="tdcname"></td></tr>
+        <tr><td class="tdctips">那种感情与世间万物无关。也许仅仅就是白雪皑皑的群山之中一次泪流满面的问候：你好吗？我很好。</td></tr>
+        <tr><td class="tdwriter">——岩井俊二《情书》</td></tr>
+    </table>
+        <div class="wayblack">
+
+                <table>
+                    <td><input type="text" placeholder="出发地" id="departure" name="departure"></td>
+                    <td><input type="text" placeholder="目的地" id="destination" name="destination"></td>
+                    <td><button onclick="depar()">出发</button></td>
+                </table>
+
+
+        </div>
+    </div>
+
+    <div class="point" id="point">
+        <p class="ppoint" id="ppoint">热门景点</p>
+        <table class="tbpoint" id="site">
+            <td><img src="resources/share4.jpg " class="share"><p class="share1">东京</p><p class="share2">东京铁塔 浅草寺 天空树 ...</p></td>
+            <td><p class="share1">大阪</p><p class="share2">大阪城公园 日本环球影城 心斋桥...</p><img src="resources/share4.jpg "class="share"></td>
+            <td><img src="resources/share4.jpg " class="share"><p class="share1">京都</p><p class="share2">奈良公园 清水寺 伏见稻荷大社...</p></td>
+            <td><img src="resources/share4.jpg " class="share"><p class="share1">北海道</p><p class="share2">小樽 札幌 白色巧克力恋人工厂...</p></td>
+        </table>
+    </div>
+
+    <div class="droute" id="droute">
+        <p class="ppoint" id="pline">经典行程</p>
+        <table class="tbroute">
+            <tr id="rarea">
+                <td></td><td></td><td></td>
+            </tr>
+            <tr>
+               <td ><div class="dmap" id="linepic"></div></td>
+               <td colspan="2" class="tdroute"><p id="line">行程规划</p><div><input type="button" value="行程详情"><input type="button" value="行程故事"></div></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

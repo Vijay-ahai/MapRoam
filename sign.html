@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆-自由飞翔</title>
+    <link href="sign.css" type="text/css" rel="stylesheet">
+    <script src="sign.js"></script>
+
+</head>
+<body>
+      <div class="body">
+        <table class="sentence">
+          <tr><td>我来到你的城市，走过你来时的路。<td></tr>
+   
+        </table>
+
+     <img class="show" src="resources/log%20show.jpg">
+
+     <div class="black"></div>
+          <table class="log" id="tb">
+              <tr>
+                  <td onclick="login()" style='border-bottom: solid;padding: 10px'>登陆</td><td onclick="sign()" style='padding: 10px'>注册</td>
+              </tr>
+              <tr>
+                  <td colspan="2"><input placeholder="请输入您的手机号" id="phone"></td>
+              </tr>
+              <tr>
+                  <td colspan="2"><input type="password" placeholder="请输入您的密码" id="pswd"></td>
+              </tr>
+              <tr>
+                <td colspan="2" id="loginmsg" ></td>
+              </tr>
+              <tr>
+                  <td colspan="2"><input type="button" value="登陆" class="login" onclick="loginto()"></td>
+              </tr>
+          </table>
+      </div>
+
+      <footer class="foot">
+          <div class="foot">
+              <p class="foottip1">联系我们</p>
+              <p class="foottip2">为了更好的促进用户体验，您可以再下方留下您的电子邮箱快速订阅我们的产品资讯，也可以通过下方任何方式关注我们的动态</p>
+              <input type="text" class="text"><input type="button" value="提交" class="button">
+              <table class="foot">
+                  <tr>
+                      <td><img src="resources/foot.png"></td>
+                      <td><img src="resources/foot%20(2).png"></td>
+                      <td><img src="resources/foot%20(3).png" ></td>
+                      <td><img src="resources/foot%20(4).png" ></td>
+                  </tr>
+              </table>
+          </div>
+
+      </footer>
+
+</body>
+</html>

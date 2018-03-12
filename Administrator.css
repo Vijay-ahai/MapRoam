@@ -1,0 +1,40 @@
+
+
+body{
+	background-color: 	#303030;
+	position: relative;
+}
+p.tips{
+	font-size: 30px;
+}
+td.act{
+	font-size: 15px;
+	font-family: 幼圆;
+	text-align: left;
+}
+div.cont{
+			text-align: center;
+			padding: 50px;
+            background-color: #F0F0F0;
+            margin: 100px;
+            border-radius: 15px;
+}
+div.excel{
+	margin: 50px;
+    padding: 5px;
+
+}
+tr.head{
+    background-color: #303030;
+    border-width: 1px;
+    color: #ffffff;
+    
+}
+td input {
+	width: 100px;
+}		
+.butt{
+			padding: 5px;
+			margin: 10px;
+
+}

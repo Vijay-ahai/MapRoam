@@ -1,0 +1,296 @@
+/*div,img,table,tr,td,p,button,input,h3{
+    border-style: solid;
+}*/
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+   background-color: #5a5b5b;
+    padding-top: 0;
+    position: relative;
+}
+div.body{
+    background-color: white;
+    margin-top: -10px;
+    position: relative;
+    
+
+}
+
+
+/*----------------------------------------------标题栏样式*/
+div.head{
+    padding: 0px 20px 0px 20px;
+    position: relative;
+
+}
+img.headlogo{
+    margin: 0px;
+    height:60px;
+
+}
+h3.headtips{
+    position: absolute;
+    top:0px;
+    left: 100px;
+    width: 200px;
+    color: #75b86b;
+}
+table.headtable{
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 50px;
+}
+table.headtable td{
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid #75b86b;
+    text-align: center;
+}
+/*----------------------------------------------大图样式*/
+div.show{
+    width: inherit;
+    height: 768px;
+    position: relative;
+}
+img.show{
+    width: 100%;
+    height: 768px;
+}
+div.black{
+    width: inherit;
+    height: 768px;
+    background-color: black;
+    opacity: 0.1;
+    z-index: 3;
+    position: absolute;
+    top:0px;
+
+}
+div.showtips{
+    position: absolute;
+    top:50%;
+    left:60px;
+    transform: translateY(-50%);
+    z-index: 5;
+
+}
+p.showtip1{
+    font-size: 70px;
+    color: white;
+    margin:0px ;
+
+}
+p.showtip2{
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+}
+button.show{
+    font-size: 40px;
+    margin-top: 50px;
+
+
+}
+/*-------------------------------------------------4 part 概述*/
+table.fourpart{
+    width: 100%;
+  text-align: center;
+    color: #B8B8B8;
+    font-family: 幼圆;
+    font-size: 10px;
+    padding: 50px;
+       }
+
+/*------------------------------------------出发地和目的地*/
+div.find{
+  position: relative;
+    padding-top: 20px;
+
+}
+img.departrue{
+    display: inline-block;
+    width: 100%;
+}
+table.find{
+    z-index: 3;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+input.putin{
+    height: 50px;
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+button.go{
+    color: white;
+    margin: 0px;
+    font-family: 幼圆;
+    font-size: 40px;
+    background-color: #11456b;
+}
+button.go a{
+    color: white;
+}
+
+/*----------------------------------------当季推荐*/
+div.share{
+    position: relative;
+    width: inherit;
+    height: 500px;
+    background-color: #F8F8F8;
+    padding: 30px 0px;
+    
+}
+table.share{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #F8F8F8;
+
+}
+table.share td{
+    width: 25%;
+    text-align: center;
+}
+table.share td div{
+    padding: 10px;
+    border:1px solid #D0D0D0;
+    background-color: white;
+    margin: 0px;
+    width: 60%;
+    display: inline-block;
+
+}
+img.share{
+    width: 100%;
+    height: 350px;
+
+}
+p.share1{
+    font-size: 20px;
+    font-family: 微软雅黑;
+}
+p.share2{
+    font-size: 15px;
+    font-family: 宋体;
+    color: #5a5b5b;
+}
+/*---------------------------------------------------------------路线规划*/
+table.route{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border-collapse: collapse;
+
+}
+table.route td{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 33.3%;
+    height: 570px;
+    overflow: hidden;
+    border:solid 1px black;
+}
+img.route1{
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+
+}
+img.route{
+    width:100%;
+    height: 570px;
+    margin: 0px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+button.route{
+    color: white;
+    background-color: #75b86b;
+    font-size: 20px;
+}
+p.route1{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top:100px;
+    left:350px;
+}
+p.route2{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top:80px;
+    left:220px;
+
+
+}
+p.route3{
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top:400px;
+    left:370px;
+
+}
+p.route{
+   margin: 30px;
+   font-size: 15px;
+   font-style: oblique;
+   color: #989898;
+}
+
+/*-----------------------------------------------页脚*/
+footer.foot{
+    background-color: #5a5b5b;
+    padding: 10px;
+    position: relative;
+    height: 200px;
+    bottom: 0px;
+}
+div.foot{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+p.foottip1{
+    color: white;
+    font-size: 20px;
+
+}
+p.foottip2{
+    color: white;
+    font-size: 10px;
+    margin-top: 0px;
+}
+input.text{
+    height: 30px;
+    width: 50%;
+}
+input.button{
+    height: 33px;
+    width: 10%;
+    color: white;
+    text-align: center;
+    background-color: #D8D8D8;
+}
+table.foot{
+    margin: 15px auto;
+}

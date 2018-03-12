@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Administrator.css">
+    <script type="text/javascript" src="Administrator.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charst=utf-8">
+</head>
+
+<body>
+     <div class="cont">
+        <p class="tips">MR地图漫步后台管理系统</p>
+        <div class="excel">
+            <!--1.插入-->
+            <table>
+                <tr><td colspan="3" class="act">·添加大型交通线路</tr>
+                <tr class="head">
+                <td>线路ID</td><td>班次编号</td><td>推荐指数</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="rid" placeholder="添加线路ID"></td>
+                    <td><input type="text" id="number" placeholder="添加班次编号"></td>
+                    <td><input type="text" id="starlevel" placeholder="添加推荐指数"></td>
+                    <td><input type="button"  value="添加" onclick="add_lplan()"></td>
+                </tr>
+            </table>
+            <div id="showadd"></div>
+            <!--2.更新-->
+            <table>
+                <tr><td colspan="3" class="act">·更新大型交通浮动价格</tr>
+                <tr class="head">
+                <td>班次编号ID</td><td>价格</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="snumber" placeholder="添加班次编号"></td>
+                    <td><input type="text" id="price" placeholder="更改价格"></td>
+                    <td><input type="button"  value="更改" onclick="upd_ltraffic()"></td>
+                </tr>
+            </table>
+            <div id="showupdate"></div>
+        </div>
+         
+     </div>
+		
+
+</body>
+</html>
+
