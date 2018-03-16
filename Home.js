@@ -35,6 +35,8 @@ function choosecon(obj){
     var contrys=document.getElementById("contrys");
     contrys.style.display="none";
     putin.value=destination;
+    var url=encodeURI("Dest.html?cdes="+destination);
+    window.open(url);
 
 }
 window.onload=function(){
