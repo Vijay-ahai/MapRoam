@@ -61,7 +61,7 @@ table.headtable td{
 }
 /*---------------------------------国家/地区图片   介绍  */
 div.show{
-    width: inherit;
+    width: 100%;
     height: 800px;
     position: relative;
 }
@@ -144,7 +144,6 @@ table.tbpoint{
     width: 100%;
     padding: 20px;
     text-align: center;
-    border-spacing: 50px 5px;
     background-color: #F8F8F8;
 }
 table.tbpoint td{
@@ -153,7 +152,7 @@ table.tbpoint td{
     background-color: white;
 }
 img.share{
-    width: 200px;
+    width: 100%;
     height: 200px;
 }
 p.share1{
@@ -174,9 +173,9 @@ div.droute{
     background-color: white;
 }
 table.tbroute{
-    border-spacing: 20px;
     padding: 0px 50px;
     background-color: #F8F8F8;
+    width: 100%;
 
 }
 #rarea{
@@ -201,9 +200,11 @@ div.dmap img{
 
 }
 table.tbroute tr td{
-   width: 500px;
     height: 50px;
     position: relative;
+}
+td.tdroute {
+    width: 75%;
 }
 td.tdroute p{
     position: absolute;
