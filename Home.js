@@ -4,6 +4,7 @@ function cgo(){
     if(cdes!="" && cdes!=""){
         var url=encodeURI("Dest.html?cdes="+cdes);
         window.open(url);
+        document.getElementById("contrys").style.display="none";
     }
 }
 function loaduser(){
@@ -22,7 +23,25 @@ function loaduser(){
 	}
     
 }
+function choosego(){
+    var contrys=document.getElementById("contrys");
+    contrys.style.display="block";
 
+}
+function choosecon(obj){
+    var destination=this.innerText;
+    console.log(destination);
+    var putin=document.getElementById("putin");
+    var contrys=document.getElementById("contrys");
+    contrys.style.display="none";
+    putin.value=destination;
+
+}
 window.onload=function(){
-	loaduser()
+	loaduser();
+    var contrys=document.getElementById("contrys");
+    var lists=contrys.getElementsByTagName("li");
+    for(var i=0;i<lists.length;i++){
+        lists[i].addEventListener("click",choosecon);
+    }
 };

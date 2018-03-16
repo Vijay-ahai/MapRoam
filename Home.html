@@ -44,9 +44,20 @@
          <div class="find">
              <img class="departrue" src="resources/departu.png" >
              <table class="find">
-                 <td ><input type="text" placeholder="也许你想去......"  class="putin" id="putin"></td>
-                 <td><button class="go" onclick="cgo()">出发</button></td>
+                <tr>
+                    <td ><input type="text" placeholder="也许你想去......"  class="putin" id="putin" onclick="choosego()" ></td>
+                    <td><button class="go" onclick="cgo()">出发</button></td>                    
+                </tr>
+                 <tr>
+                    <td >                    
+                        <ol id=contrys>
+                            <li>中国</li>
+                            <li>日本</li>
+                        </ol>
+                    </td>
+                 </tr>
              </table>
+             
          </div>
 
          <a name="recommand"></a>

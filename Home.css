@@ -120,6 +120,7 @@ table.find{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    border-collapse: collapse;
 }
 input.putin{
     height: 50px;
@@ -137,7 +138,25 @@ button.go{
 button.go a{
     color: white;
 }
+#contrys {
+    font-family: 微软雅黑;
+    background-color: white;
+    z-index: 4;
+    position: absolute;
+    margin: 0px;
+    width: 500px;
+    height: 100px;
+    padding: 0px;
+    display: none;
+}
+#contrys li{
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+    margin: 15px 0px 0px 15px;
+    cursor: pointer;
 
+}
 /*----------------------------------------当季推荐*/
 div.share{
     position: relative;
