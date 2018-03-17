@@ -29,6 +29,9 @@ function choosego(){
     contrys.style.display="block";
 
 }
+function ClickCancel(){
+    document.getElementById("contrys").style.display="none";
+}
 //选择目的地后直接跳转网页
 function choosecon(obj){
     var destination=this.innerText;
@@ -73,14 +76,21 @@ function ImgChangeByTime(imgs,i,interval){
     movement=setTimeout(function(){ImgChangeByTime(imgs,i,interval)},interval);
 
 }
+function OnShareGo(){
+    var destination=this.getAttribute("value");
+    var url=encodeURI("Dest.html?cdes="+destination);
+    window.open(url);
+}
 window.onload=function(){
 	loaduser();
-    //为下拉表单添加点击事件
+    //为目的地下拉表单添加点击事件
     var contrys=document.getElementById("contrys");
     var lists=contrys.getElementsByTagName("li");
     for(var i=0;i<lists.length;i++){
         lists[i].addEventListener("click",choosecon);
     }
+    //为下拉表单添加点击其他区域取消显示
+    document.getElementById("departu").addEventListener("click",ClickCancel);
     //初始化大图显示和透明度，其他均为none
     var imgs=document.getElementById("imgslide").getElementsByTagName("img");
     imgs[0].style.opacity=1;
@@ -88,5 +98,12 @@ window.onload=function(){
         imgs[i].style.display="none";
         imgs[i].style.opacity=0;
     }
+    //调用图片动画函数
     ImgChange(imgs,0,100);
+    //为首页推荐的目的地添加点击事件
+    var share_deses=document.getElementById("share").getElementsByTagName("img");
+    for(var i=0;i<share_deses.length;i++){
+        share_deses[i].style.cursor="pointer";
+        share_deses[i].addEventListener("click",OnShareGo);
+    }
 };
