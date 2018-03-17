@@ -55,9 +55,15 @@ div.show{
     height: 768px;
     position: relative;
 }
-img.show{
+#imgslide {
+    width: inherit;
+    height: 768px;   
+}
+#imgslide img{
     width: 100%;
     height: 768px;
+    position: absolute;
+    top: 0px;
 }
 div.black{
     width: inherit;
