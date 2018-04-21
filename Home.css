@@ -6,14 +6,16 @@ a{
     color: black;
 }
 body{
-   background-color: #5a5b5b;
+    background-color: #5a5b5b;
     padding-top: 0;
     position: relative;
 }
 div.body{
     background-color: white;
-    margin-top: -10px;
+    margin: -10px auto;
     position: relative;
+    max-width: 1300px;
+    min-width: 900px;
     
 
 }
